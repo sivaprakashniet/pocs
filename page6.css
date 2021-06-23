@@ -1,0 +1,148 @@
+.navbar {
+	min-height: 30px;
+	font-family: Cursive;
+
+}
+.navbar1 {
+	min-height: 40px;
+	padding: 0px;
+	margin: 0;
+}
+.row{
+	margin-top: 35px;
+}
+.image1{
+	position: relative;
+	
+}
+.write {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.shop{
+	padding: 10px 100px;
+	text-align: center;
+	height: 25px;
+}
+.right-nav{
+	position: absolute;
+	right: 10px;	
+	width: 45%;
+	justify-content: space-around;
+}	
+
+.img_width {
+	width: 100%;
+}
+.nav-link {
+	width: 	max-content;
+	padding-right: 35px !important;
+
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: 	white ;
+}
+.nav-item.active .nav-link{
+	color: orange !important;
+}
+.col-sm-4 {
+	padding: 0px 50px !important;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+   
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: orange !important;
+    border-radius: 4px;
+}
+.btn-secondary {
+    background-color: #e3893d;
+}
+.btn-secondary:hover, 
+.btn-secondary:focus,
+.btn-secondary:active  {
+    background-color: #e3893d;
+}
+.padt10 {
+	text-align: center;
+	padding-top: 50px !important;
+}
+.border_none {
+	border: none;
+}
+.list-unstyled li{
+	
+	margin-left: 15px;
+}
+h5{
+	padding-top: 10px;
+	margin-left: 5px;
+}
+.list-unstyled a{
+	color: black;
+}
+.dropdown{
+	margin-left: 20px;
+	padding-top: 20px;
+}
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+.addtocard{
+	 display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*
+.card {
+        margin: 0 auto; 
+        float: none; 
+        margin-right:  20px;
+}
+*/
+
+.quantity {
+	right: 5px;
+	position: absolute !important;
+}
+.addtocard{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+}
+.pos-right{
+	position: absolute;
+	right: 25px;
+	top: 20px;
+	z-index: 999;
+	padding: 10px 15px;
+	border-radius: 15px;
+
+}
+.fa-heart-o:before {
+    color: white;
+
+}
+.rs-70{
+	margin-left: 7px;
+}
+body{
+	background-color: #eded;
+}
