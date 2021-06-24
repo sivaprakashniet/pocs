@@ -58,7 +58,7 @@
 	color: 	white ;
 }
 .nav-item.active .nav-link{
-	color: orange !important;
+	color: white;
 }
 .col-sm-4 {
 	padding: 0px 50px !important;
@@ -101,4 +101,7 @@
 }
 .container, .container-lg, .container-md, .container-sm {
     max-width: 1033px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: orange;
 }
