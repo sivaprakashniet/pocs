@@ -44,7 +44,7 @@
 	color: 	white ;
 }
 .nav-item.active .nav-link{
-	color: orange !important;
+	color: white;
 }
 .col-sm-4 {
 	padding: 0px 50px !important;
@@ -127,4 +127,7 @@ h3{
 .quantity {
 	right: 0px;
 	position: absolute !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: orange;
 }

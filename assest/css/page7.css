@@ -46,7 +46,7 @@
 	color: 	white ;
 }
 .nav-item.active .nav-link{
-	color: orange !important;
+	color: white;
 }
 .col-sm-4 {
 	padding: 0px 50px !important;
@@ -114,4 +114,7 @@ body{
 .addtocard{
 	display: flex;
 	justify-content: center;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: orange;
 }
